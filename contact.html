@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html leng="es">
 	<head>
-		<title>Contact Us</title>
+		<title>Contact Us | DesertRX Pharmacy</title>
 		<meta sharset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="css/app.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="menu-icon"><span></span><span></span><span></span></div>
-		<div class="sidebar"><a href="index.html"><img src="img/logo-template.svg" alt=""></a>
-			<div class="menu">
-				<li> <a href="index.html">Home
-					<div class="line"></div></a></li>
-				<li><a href="about.html">About Us
-					<div class="line"></div></a></li>
-				<li><a href="services.html">Services
-					<div class="line"></div></a></li>
-				<li><a href="portfolio.html">Portfolio
-					<div class="line"></div></a></li>
-				<li><a href="gallery.html">Gallery
-					<div class="line"></div></a></li>
-				<li><a href="contact.html">Contact Us
-					<div class="line"></div></a></li>
+		<div class="container">
+			<div class="logo"><img src="img/logo.png" alt=""></div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+			<div class="container"><a class="navbar-brand" href="#"><img class="logo-img" src="img/logo.png" width="150" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse justify-content-between align-items-center" id="menu">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+						<li class="nav-item"><a class="nav-link" href="faq.html">Faq</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact US</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="social-icon">
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+		</nav>
+		<div class="bg-contact">
+			<div class="wrap">
+				<h2 class="wrap__title">Contact US</h2>
+				<p class="wrap__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
 			</div>
 		</div>
-		<header class="header bg-primary text-white">
-			<div class="container text-center">
-				<h1 class="title-lg text-ligth">Contact Us</h1>
-				<p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, quasi.</p>
-			</div>
-		</header>
 		<section class="pbt-lg">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<h2 class="title-md">Contact Us</h2>
 						<hr class="separator-left">
-						<p class="p-ligth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A molestiae culpa ducimus, eaque repellendus corporis omnis ab architecto dolore aspernatur tenetur, est. Aliquam exercitationem eaque eius modi vel sed. Consequatur?</p>
+						<p class="p-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A molestiae culpa ducimus, eaque repellendus corporis omnis ab architecto dolore aspernatur tenetur, est. Aliquam exercitationem eaque eius modi vel sed. Consequatur?</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="pbt-md bg-primary text-center">
+		<section class="pbt-md">
 			<div class="container">
-				<h2 class="title-sm text-ligth"> Send us your messages
-					<div class="row">
-						<div class="col-lg-8 mx-auto">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-lg-12">
+								<h4 class="title-xs">Address</h4>
+								<hr class="separator-left-sec">
+								<ul class="list-contact">
+									<li>
+										<p>Schowalter Highway, Cambridgeshire, South Carolina</p>
+									</li>
+									<li>
+										<p>Toll-Free: 524.879.9757 x2455</p>
+									</li>
+									<li>
+										<p>Telf: 462-793-8971</p>
+									</li>
+									<li> 
+										<p>info@desertrxpharmacy.com</p>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-12"></div>
+							<div class="map" id="map"></div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="contact">
+							<h2 class="title-sm text-light text-center">Send us your messages</h2>
 							<div class="form-dark">
 								<form id="forContacto" action="./" method="POST" role="form">
 									<!-- Fila 1-->
@@ -104,9 +122,15 @@
 							</div>
 						</div>
 					</div>
-				</h2>
+				</div>
 			</div>
 		</section>
+		<div class="col-lg-12 parallax" style="background-image: url('img/parallax/bg-parallax-1.jpg');">
+			<div class="text-vcenter">
+				<h2>DesertRX Pharmacy</h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nihil earum, obcaecati totam, esse quaerat!<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="btn button-primary" href="about.html">About us</a>
+			</div>
+		</div>
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
